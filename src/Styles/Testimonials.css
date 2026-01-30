@@ -1,0 +1,94 @@
+.testimonial-section {
+  padding: 90px 20px;
+  background: #f4f7fb;
+  text-align: center;
+}
+
+.section-tag {
+  color: #f59e0b;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.testimonial-section h2 {
+  font-size: 32px;
+  margin: 12px 0 40px;
+  color: #0f2a44;
+  font-size: 20px;
+}
+
+.testimonial-card {
+  max-width: 820px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.loan-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #fbbf24;
+  color: black;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.quote {
+  font-size: 60px;
+  color: #0f2a44;
+  text-align: left;
+}
+
+.testimonial-card p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.testimonial-user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: center;
+}
+
+.testimonial-user img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.testimonial-user h4 {
+  margin: 0;
+  color: #0f2a44;
+}
+
+.testimonial-user span {
+  font-size: 13px;
+  color: #777;
+}
+
+/* DOTS */
+.testimonial-dots {
+  margin-top: 25px;
+}
+
+.testimonial-dots span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.testimonial-dots .active {
+  background: #fbbf24;
+}
+
