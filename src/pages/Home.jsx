@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import Footer from "../Components/Footer";
+import Footer from "../components/Footer";
 import img1 from "../assets/img1.jpg";
 import img22 from "../assets/img22.jpg";
 import processImg from "../assets/processimg.jpg";
