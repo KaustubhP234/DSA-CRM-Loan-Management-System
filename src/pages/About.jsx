@@ -8,7 +8,7 @@ import hsbc from "../assets/hsbc.png";
 import union from "../assets/unionbank.png";
 import yes from "../assets/yesbank.png";
 import canara from "../assets/canarabank.jpg";
-import Central from "../assets/Centralbank.png";
+import Central from "../assets/centralbank.png";
 
 const About = () => {
   const bankLogos = [icici, axis, sbi, hsbc, union, yes, canara, Central];
