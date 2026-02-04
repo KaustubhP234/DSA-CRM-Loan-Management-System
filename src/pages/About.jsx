@@ -1,5 +1,5 @@
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import whoweare from "../assets/whoweare.jpg";
 import icici from "../assets/icicibank.png";
 import axis from "../assets/axisbank.jpg";
