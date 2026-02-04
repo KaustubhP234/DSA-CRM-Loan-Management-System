@@ -1,0 +1,107 @@
+.footer {
+  background: var(--primary);
+  color: #ffffff;
+  padding: 60px 40px 30px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 35px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: var(--accent);
+}
+
+.footer p,
+.footer li {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #e0e0e0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer li:hover {
+  color: #f9c74f;
+}
+
+/* BUTTON */
+.footer-btn {
+  margin-top: 12px;
+  background: var(--accent);
+  color: var(--primary);
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* CONTACT ICONS */
+.footer-contact div {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  background: #1c3f60;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #f9c74f;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+  background: #f9c74f;
+  color: #0f2a44;
+}
+
+
+/* BOTTOM BAR */
+.footer-bottom {
+  margin-top: 40px;
+  border-top: 1px solid #1c3f60;
+  padding-top: 15px;
+  font-size: 13px;
+  text-align: center;
+  color: #cccccc;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;    
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f4a300;       
+}
+
+/* Remove NavLink default active styling */
+.nav-links a.active {
+  color: #ffffff;
+  border-bottom: none;
+}
+

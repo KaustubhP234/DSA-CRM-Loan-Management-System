@@ -1,0 +1,112 @@
+.calculator-section {
+  padding: 80px 40px;
+  background: #f4f7fb;
+}
+
+.calculator-section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+  color: #0f2a44;
+}
+
+.calculator-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* INPUTS */
+.calculator-inputs label {
+  font-weight: 500;
+  margin-top: 20px;
+  display: block;
+}
+
+.calculator-inputs input[type="number"] {
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  background-color: white;
+  color: black;
+}
+
+.calculator-inputs input[type="range"] {
+  width: 100%;
+}
+
+/* RESULTS */
+.calculator-results {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.calculator-results div {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.calculator-results h4 {
+  margin-bottom: 6px;
+  color: #0f2a44;
+}
+
+.emi-box {
+  background: #fbbf24;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  height: 85px;
+}
+
+/* CHART */
+.calculator-chart {
+  text-align: center;
+}
+
+.donut {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+}
+
+.donut span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.legend {
+  margin-top: 20px;
+}
+
+.legend span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 8px;
+}
+
+.legend .principal {
+  background: #fbbf24;
+}
+
+.legend .interest {
+  background: #0f2a44;
+}

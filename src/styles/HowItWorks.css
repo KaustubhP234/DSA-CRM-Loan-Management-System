@@ -1,0 +1,191 @@
+/* ================= ROOT ================= */
+:root {
+  --navbar-height: 64px;
+}
+
+/* ================= HEADER (VIEWPORT BALANCED) ================= */
+.how-header {
+  background: linear-gradient(90deg, #0f2a44, #123e68);
+  color: white;
+  text-align: center;
+
+  /* EXTENDED HEADER HEIGHT */
+  height: calc(75vh - var(--navbar-height));
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: var(--navbar-height);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.how-header h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.how-header p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* ================= COMMON SECTION HEADING ================= */
+.section-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  color: #ffb703;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.section-heading h2 {
+  font-size: 34px;
+  color: #0f2a44;
+  margin: 10px 0;
+}
+
+.tagline {
+  color: #777;
+  font-style: italic;
+}
+
+/* ================= PROCESS SECTION ================= */
+.process-section {
+  background: #ffffff;
+  padding: 80px 40px;
+}
+
+.process-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.process-card {
+  background: #f9fafc;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.process-card h3 {
+  color: #0f2a44;
+  margin-bottom: 10px;
+}
+
+/* ================= WHY CHOOSE US ================= */
+.why-section {
+  background: #f4f7fb;
+  padding: 80px 40px;
+}
+
+.why-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.why-card {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.why-card h4 {
+  color: #0f2a44;
+  margin-bottom: 8px;
+}
+
+/* WHY SECTION SUB-PARAGRAPH */
+.why-subtitle {
+  max-width: 700px;
+  margin: 12px auto 0;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* ================= HIGHLIGHT SECTION ================= */
+.highlight-section {
+  background: #ffffff;
+  padding: 70px 40px;
+}
+
+.highlight-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.highlight-card {
+  padding: 35px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.highlight-card h3 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.highlight-subtitle {
+  font-size: 14px;
+  margin-bottom: 16px;
+  opacity: 0.9;
+}
+
+.highlight-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.highlight-card li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+/* FILLED COLORS */
+.highlight-card.eligibility {
+  background: linear-gradient(135deg, #0f2a44, #123e68);
+}
+
+.highlight-card.documents {
+  background: linear-gradient(135deg, #f4a300, #ffb703);
+  color: #0f2a44;
+}
+
+.highlight-card.documents .highlight-subtitle {
+  color: #0f2a44;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .how-header {
+    height: 65vh;
+  }
+
+  .how-header h1 {
+    font-size: 32px;
+  }
+
+  .process-section,
+  .why-section,
+  .highlight-section {
+    padding: 60px 20px;
+  }
+}
