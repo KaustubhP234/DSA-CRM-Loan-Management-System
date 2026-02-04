@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Footer from "../Components/Footer";
+import Footer from "../components/Footer";
 
 const LoanApplication = () => {
   const [form, setForm] = useState({
